@@ -40,7 +40,7 @@ If no errors:
 Found 2 items
 -rwxr-xr-x   3 root root          0 2017-06-02 08:52 /user/hive/zoomeet/_SUCCESS
 -rwxr-xr-x   3 root root       8898 2017-06-02 08:52 /user/hive/zoomeet/part-00000
-[mapr@instance-29219 ~]$
+
 ```
 
 2) Check Hue application, at Metastore Manager ( http://[insert an IP/hostname]:8888/metastore/tables/ ), if the newly created table is present:
