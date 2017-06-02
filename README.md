@@ -1,5 +1,6 @@
 # Mapr-SparkStreaming-Zoomdata
 
+<i>Mapr Version: 5.2.1.42646.GA</i>
 This tutorial has two parts:
 
 1)  Spark Streaming and Kafka Integration (Step I + Step II)
