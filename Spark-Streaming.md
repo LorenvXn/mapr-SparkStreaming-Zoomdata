@@ -1,5 +1,49 @@
->Works in either Zeppelin or spark-shell
 
+
+
+>Step I - Prepare Kafka environment
+
+
+1) start Zookeeper
+
+```
+#  /opt/mapr/zookeeper/zookeeper-3.4.5/bin/zkServer.sh start /opt/mapr/kafka/kafka-0.9.0/config/zookeeper.properties &
+[1] 47384
+# JMX enabled by default
+Using config: /opt/mapr/kafka/kafka-0.9.0/config/zookeeper.properties
+Starting zookeeper ... STARTED
+```
+2) From another terminal, start the broker:
+
+```
+# /opt/mapr/kafka/kafka/kafka-0.9.0/bin/kafka-server-start.sh config/server.properties
+```
+
+<i> N.B: Created and used topic  <b>fast-messages</b>, with group-id <b>console-consumer-6246 </b> </i>
+```
+/opt/mapr/kafka/kafka/kafka-0.9.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic   fast-messages
+Created topic "fast-messages".
+
+```
+```
+# /opt/mapr/kafka/kafka-0.9.0/bin/zookeeper-shell.sh localhost ls "/consumers/console-consumer-6246/offsets"
+Connecting to localhost
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[fast-messages]
+#
+```
+
+
+
+
+>Step II - Spark Streaming
+
+<i>Below Scala lines work in either Zeppelin or spark-shell </i>
+
+<i> Directory /tmp/streaming_output/ has been created </i>
 
 Introduce in spark-shell the below lines:
 
@@ -60,8 +104,11 @@ ssc.start()
 From a different terminal, start the producer and send the csv file:
 
 ```
-/opt/mapr/kafka/kafka-0.9.0/bin/kafka-console-producer.sh --broker-list localhost:9092 \
+#/opt/mapr/kafka/kafka-0.9.0/bin/kafka-console-producer.sh --broker-list localhost:9092 \
 --topic  fast-messages < /home/packetzoutput.csv
+# echo $?
+  0
+#
 ```
 
 Check under /tmp/streaming_output if the files are present:
