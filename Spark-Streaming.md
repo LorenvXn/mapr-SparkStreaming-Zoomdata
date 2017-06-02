@@ -88,7 +88,7 @@ val consumerStrategy = ConsumerStrategies.Subscribe[String, String](topics1, kaf
 val messages = KafkaUtils.createDirectStream[String, String](ssc, LocationStrategies.PreferConsistent, consumerStrategy)
 
  
- val hdfsdir = "/tmp/streaming_output/"     //do mind the last slash 
+ val hdfsdir = "/tmp/streaming_output/"    
 
  val lines = messages.map(_.value())
 
