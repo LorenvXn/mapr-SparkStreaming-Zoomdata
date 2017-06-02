@@ -39,7 +39,7 @@ WatchedEvent state:SyncConnected type:None path:null
 
 
 
->Step II - Spark Streaming
+>Step II - Spark Streaming - integration with Kafka Consumer
 
 <i>Below Scala lines work in either Zeppelin or spark-shell </i>
 
