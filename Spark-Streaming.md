@@ -119,7 +119,6 @@ Check under /tmp/streaming_output if the files are present:
 Found 2 items
 -rwxr-xr-x   3 root root          0 2017-06-02 08:47 /tmp/streaming_output/_SUCCESS
 -rwxr-xr-x   3 root root       8898 2017-06-02 08:47 /tmp/streaming_output/part-00000
-[mapr@instance-29219 ~]$
 ```
 
 Now proceed with step III: https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/HiveMetastore.md
