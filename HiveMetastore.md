@@ -33,7 +33,7 @@ resRDD.map(t => "Count : " + t(0) ).collect().foreach(println)
 
 If no errors:
 
-1) The files under /tmp/streaming_output should have been transferred under /user/hive/zoomeet:
+1) The files under /tmp/streaming_output should have been copied under /user/hive/zoomeet:
 
 ```
 [mapr@Host ~]$ hadoop fs -ls /user/hive/zoomeet
