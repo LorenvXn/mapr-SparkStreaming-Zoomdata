@@ -122,3 +122,4 @@ Found 2 items
 [mapr@instance-29219 ~]$
 ```
 
+Now proceed with step III: https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/HiveMetastore.md
