@@ -43,11 +43,11 @@ Found 2 items
 [mapr@instance-29219 ~]$
 ```
 
-2) Check Hue application, at Metastore Manager ( http://<some IP>:8888/metastore/tables/ ), if the newly created tablespace is present:
+2) Check Hue application, at Metastore Manager ( http://[insert an IP/hostname]:8888/metastore/tables/ ), if the newly created table is present:
 
 ![ScreenShot](https://github.com/Satanette/test/blob/master/ipip.png)
 
-3) Check PostgreSQL metastore dba, just to make sure the tablespace is there:
+3) Check PostgreSQL metastore dba, just to make sure the table is there:
 
 ```
 metadb=>  select * from "TBLS";
