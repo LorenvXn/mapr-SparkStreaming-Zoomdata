@@ -21,7 +21,8 @@ Starting zookeeper ... STARTED
 
 <i> N.B: Created and used topic  <b>fast-messages</b>, with group-id <b>console-consumer-6246 </b> </i>
 ```
-/opt/mapr/kafka/kafka/kafka-0.9.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic   fast-messages
+/opt/mapr/kafka/kafka/kafka-0.9.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 \
+--replication-factor 1 --partitions 1 --topic   fast-messages
 Created topic "fast-messages".
 
 ```
