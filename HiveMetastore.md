@@ -45,7 +45,7 @@ Found 2 items
 
 2) Check Hue application, at Metastore Manager ( http://[insert an IP/hostname]:8888/metastore/tables/ ), if the newly created table is present:
 
-![ScreenShot](https://github.com/Satanette/test/blob/master/ipip.png)
+![ScreenShot](https://github.com/Satanette/test/blob/master/ipip1.png)
 
 3) Check PostgreSQL metastore dba, just to make sure the table is there:
 
