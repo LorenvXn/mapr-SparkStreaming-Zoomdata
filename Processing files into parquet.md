@@ -87,7 +87,7 @@ Just don't forget to offer a path where the new files to be saved:
 
 ```
 val jsonData = packetZDataFrame.toJSON
-jsonData.rdd.saveAsTextFile("/tmp/anotherJson")
+jsonData.rdd.saveAsTextFile("/tmp/somestuff.json")
 ```
 
 
