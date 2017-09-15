@@ -14,7 +14,7 @@ This tutorial has two parts:
 
 <b>Preparing the environment</b>
 
-Packets output has been prepared as per this tutorial: [Capture Packets](https://github.com/Satanette/Streaming-Kafka-messages-to-MySQL-and-analysis/tree/master/capture_packets)
+**Packets output** has been prepared as per this tutorial: [Capture Packets](https://github.com/Satanette/Streaming-Kafka-messages-to-MySQL-and-analysis/tree/master/capture_packets)
 
 <i> 1)MapR 5.2.1 dependencies and packages http://maprdocs.mapr.com/home/ReleaseNotes/packages_and_deps-5-2-1.html </i>
 
