@@ -1,6 +1,5 @@
 
-As per output from part I
-(https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/Spark-Streaming.md), 
+As per output from [part 1](https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/Spark-Streaming.md), 
 we will now process files under /tmp/streaming_output into parquet 
 
 ```
