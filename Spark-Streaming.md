@@ -121,4 +121,4 @@ Found 2 items
 -rwxr-xr-x   3 root root       8898 2017-06-02 08:47 /tmp/streaming_output/part-00000
 ```
 
-Now proceed with step III: https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/HiveMetastore.md
+Now proceed with [Step III](https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/HiveMetastore.md)
