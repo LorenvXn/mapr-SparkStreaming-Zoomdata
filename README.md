@@ -5,18 +5,16 @@
 This tutorial has two parts:
 
 1)  Spark Streaming and Kafka Integration (Step I + Step II)
+[Step I + Step II](https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/Spark-Streaming.md)
 
-https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/Spark-Streaming.md 
-
-2)  Hive Metastore and Zoomdata (Step III )
-
-https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/HiveMetastore.md
+2)  Hive Metastore and Zoomdata 
+[Step III](https://github.com/Satanette/mapr-SparkStreaming-Zoomdata/blob/master/HiveMetastore.md)
 
 
 
 <b>Preparing the environment</b>
 
-Packets output has been prepared as per this tutorial: https://github.com/Satanette/Streaming-Kafka-messages-to-MySQL-and-analysis/tree/master/capture_packets
+Packets output has been prepared as per this tutorial: [Capture Packets](https://github.com/Satanette/Streaming-Kafka-messages-to-MySQL-and-analysis/tree/master/capture_packets)
 
 <i> 1)MapR 5.2.1 dependencies and packages http://maprdocs.mapr.com/home/ReleaseNotes/packages_and_deps-5-2-1.html </i>
 
